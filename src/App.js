@@ -15,6 +15,8 @@ import './App.css';
 // import Inline from "./components/Inline";
 // import "./appStyles.css";
 // import styles from "./appStyles.module.css";
+   import Form from "./components/Form";
+
 
 class App extends Component{
   render() {
@@ -41,6 +43,7 @@ class App extends Component{
         {/* <NameList /> */}
         {/* <Stylesheet primary={true}/> */}
         {/* <Inline /> */}
+            <Form />
       </div>
     );
   }
