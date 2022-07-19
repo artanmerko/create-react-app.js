@@ -14,8 +14,23 @@ import React, { Component } from 'react'
 		console.log('LifecycleB getDerivedStateFromProps')
 		return null
 	}
+
   componentDidMount(){
     console.log('LifeCycleB ComponentDidMount')
+  }
+
+  shouldComponentUpdate(){
+    console.log('LifeCycleB shouldComponetnUpdate')
+    return true
+  }
+
+  getSnapshotBeforeUpdate(prevProps, prevState){
+    console.log('LifeCycleB getSnapshotBeforeUpdate')
+    return null
+  }
+
+  componentDidUpdate(){
+    console.log('LifeCycleB componentDidUpdate')
   }
 
   render() {
