@@ -15,7 +15,8 @@ import './App.css';
 // import Inline from "./components/Inline";
 // import "./appStyles.css";
 // import styles from "./appStyles.module.css";
-   import Form from "./components/Form";
+// import Form from "./components/Form";
+// import LifeCycleA from "./components/LifeCycleA";
 
 
 class App extends Component{
@@ -43,7 +44,8 @@ class App extends Component{
         {/* <NameList /> */}
         {/* <Stylesheet primary={true}/> */}
         {/* <Inline /> */}
-            <Form />
+        {/* <Form /> /*}
+        {/* <LifeCycleA /> */}
       </div>
     );
   }
