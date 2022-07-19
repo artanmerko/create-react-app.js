@@ -17,6 +17,8 @@ import './App.css';
 // import styles from "./appStyles.module.css";
 // import Form from "./components/Form";
 // import LifeCycleA from "./components/LifeCycleA";
+// import FragmentDemo from "./components/FragmentDemo";
+// import Table from "./components/Table";
 
 
 class App extends Component{
@@ -46,6 +48,8 @@ class App extends Component{
         {/* <Inline /> */}
         {/* <Form /> /*}
         {/* <LifeCycleA /> */}
+        {/* <Table /> */}
+        {/* <FragmentDemo /> */}
       </div>
     );
   }
